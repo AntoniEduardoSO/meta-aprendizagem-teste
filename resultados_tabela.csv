@@ -1,0 +1,5 @@
+Modelo,Qtd_MFs_Sobreviventes,Tempo_Pruning(s),Tempo_Total(s),Acc_Balanceada
+V1 (Força Bruta),262,0.0,0.0,0.0
+V2 (Hard Pruning),95,0.0648,0.0648,0.0
+V3 (ERF),160,0.0737,0.0737,0.0
+V4 (ERF + GA),37,0.0737,578.4847,0.0
