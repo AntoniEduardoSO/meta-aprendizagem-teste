@@ -23,3 +23,11 @@
     - V3: Enriched RF (poda mais permissiva para alimentar o GA).
 - **Refatoração do Notebook**: Células consolidadas para maior concisão e legibilidade.
 - **Tracker**: Criação deste arquivo para controle de versões e mudanças.
+
+## Atualizações Recentes (Algoritmo Genético e Correção de Erros)
+- **Correção do GA (Fitness):** A métrica de *fitness* passou a usar alanced_accuracy em vez de ccuracy, resolvendo a discrepância nos resultados onde o GA convergia mas entregava modelos desbalanceados.
+- **Crossover Dinâmico:** Implementado cruzamento dinâmico no Algoritmo Genético (selecionando $ cortes de tamanhos diferentes, gerando partições complementares).
+- **Aumento de Testes:** Ampliada a lista de datasets de avaliação de 20 para 40 datasets (OpenML).
+- **Gerações do GA:** Ampliadas de 50 para 150 para permitir maior tempo de exploração no pool de features.
+- **Correção de Erro de Tipo (Pandas):** Adicionada conversão explícita de colunas com StringDtype para object, prevenindo falhas de interpretação do scikit-learn ao iterar pipelines.
+- **Tratamento de Warnings:** Reforço no silenciamento de FutureWarning e UserWarning emitidos por PyMFE e Scikit-Learn para manter a limpeza do terminal.
