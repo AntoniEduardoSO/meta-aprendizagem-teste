@@ -1,5 +1,5 @@
 Modelo,Qtd_MFs_Sobreviventes,Tempo_Pruning(s),Tempo_Total(s),Acc_Balanceada,F1_Macro
-V1 (Força Bruta),413,0.0,0.0,0.261,0.2383
-V2 (Hard Pruning),167,0.1756,0.1756,0.313,0.2993
-V3 (Var+Correlação),265,0.0686,0.0686,0.2507,0.2213
-V4 (V3 + GA),78,0.0686,121.0683,0.3524,0.3505
+V1 (Força Bruta),413,0.0,0.0,0.3248,0.3247
+V2 (Hard Pruning),181,0.1704,0.1704,0.3811,0.3801
+V3 (Var+Correlação),278,0.0965,0.0965,0.3229,0.319
+V4 (V3 + GA),92,0.0965,149.641,0.4224,0.4387
